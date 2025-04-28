@@ -12,13 +12,33 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Algorithm:
 
-1. Import the required packages and print the present data.
+1.Load the Dataset
 
-2. Find the null and duplicate values.
+2.Create a Copy of the Original Data
 
-3. Using logistic regression find the predicted values of accuracy , confusion matrices.
+3.Drop Irrelevant Columns (sl_no, salary)
 
-4. Display the results.
+4.Check for Missing Values
+
+5.Check for Duplicate Rows
+
+6.Encode Categorical Features using Label Encoding
+
+7.Split Data into Features (X) and Target (y)
+
+8.Split Data into Training and Testing Sets
+
+9.Initialize and Train Logistic Regression Model
+
+10.Make Predictions on Test Set
+
+11.Evaluate Model using Accuracy Score
+
+12.Generate and Display Confusion Matrix
+
+13.Generate and Display Classification Report
+
+14.Make Prediction on a New Sample Input
 
 ## Program:
 ```
@@ -71,7 +91,8 @@ lr.predict([[1,80,1,9,1,1,90,1,0,85,1,85]])
 
 ### Placement Dataset
 
-![Screenshot 2025-04-04 092343](https://github.com/user-attachments/assets/1e3603b4-2202-4b91-a8cf-e8182906a3ec)
+![image](https://github.com/user-attachments/assets/a5ce4eb8-0686-4060-bf71-e7362d0c6a8d)
+
 
 ### Dataset after Feature Selection
 
@@ -115,7 +136,8 @@ lr.predict([[1,80,1,9,1,1,90,1,0,85,1,85]])
 
 ### Prediction of logistic regression
 
-![Screenshot 2025-04-04 093235](https://github.com/user-attachments/assets/d491e755-ffa9-43e5-9836-9586cd526964)
+![image](https://github.com/user-attachments/assets/38561a04-29e1-4faa-8f42-506dfe67704c)
+
 
 ## Result:
 
